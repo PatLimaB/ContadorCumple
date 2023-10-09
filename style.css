@@ -1,56 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Varela+Round&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Croissant+One&display=swap");
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body{
-	font-family: 'Varela Round';
-  	background: rgb(30, 11, 65);
-	color: white;
+body {
+	font-family: "Croissant One", cursive;
+	color: pink;
 	background-position: center;
-  	background-size: cover;
-  	min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 20px;
+	background-size: cover;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	text-shadow: 2px 2px red;
 }
 
-h1{
+h1 {
 	font-size: 3rem;
-  margin: 30px 0;
-  text-align: center;
-  text-shadow: 2px 2px #4e53ff;
+	margin: 30px 0;
+	text-align: center;
 }
 
-.countdown-container{
+.todoTexto {
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	padding: 20px;
+	text-shadow: 2px 2px red;
+}
+
+.countdownDiv {
 	display: flex;
 }
 
-	.countdown-container div{
-		text-align: center;
-	}
-
-		.countdown-container p{
-			font-size: 2rem;
-			text-shadow: 2px 2px #4e53ff;
-			margin: 0 5vw;
-		}
-
-		.countdown-container span{
-			font-size: 1rem;
-			text-shadow: 2px 2px #4e53ff;
-		}
-
-#birthdayImage{
-	height: 250px;
-	withd: 300px;
+.countdownDiv div {
+	text-align: center;
 }
 
-.noColorImage{
+.countdownDiv p {
+	font-size: 2rem;
+	margin: 0 5vw;
+}
+
+.felizCumpleanos {
+	text-align: center;
+}
+
+#birthdayImage {
+	height: 250px;
+	width: 350px;
+	border-radius: 10px;
+}
+
+.noColorImage {
 	display: none;
+}
+
+#credits {
+	text-align: right;
+}
+
+.creditos {
+  background-image: "url(./img/winter.jpg)";
 }
