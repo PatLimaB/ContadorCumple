@@ -11,7 +11,7 @@ let minutesElement = document.getElementById('minutes');
 let secondsElement = document.getElementById('seconds');
 
 let currentDate = new Date();
-let birthday = new Date(2024, 0, 26, 7, 0, 0); // Cumpleaños a las 7:00 AM
+let birthday = new Date(2024, 0, 26, 0, 0, 0); // Cumpleaños a las 00:00h
 
 
 let autumn = new Date(2023, 8, 23);
